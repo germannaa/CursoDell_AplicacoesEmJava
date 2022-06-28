@@ -14,5 +14,7 @@ Para isso, definiremos algumas variáveis de ambiente, que são variáveis do si
 As variáveis de ambiente que definiremos são:
 
 JAVA_HOME: deve conter o diretório em que foi instalado o JDK. Podemos referenciar esta variável dentro de outras variáveis de ambiente, como CLASSPATH e PATH, para diminuir o tamanho do endereço de diretórios dentro da pasta de instalação do Java.
+
 PATH: deve conter o diretório no qual se encontram as ferramentas de desenvolvimento do Java (compilador, interpretador, gerador de documentação etc.). Os arquivos relativos a essas ferramentas estão dentro da pasta “bin’’ do diretório de instalação do Java.
+
 CLASSPATH: deve conter o diretório no qual o ClassLoader (componente que carrega as classes que estão em disco para a memória) poderá encontrar as classes que são utilizadas pela sua aplicação, principalmente as classes de base do Java. Esses arquivos estão dentro da pasta “lib” do diretório de instalação do Java.

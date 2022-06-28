@@ -1,0 +1,13 @@
+package AprendendoJava;
+import javax.swing.JOptionPane; 
+
+public class Topico003 { 
+
+public static void main(String[] args){ 
+/* Solicita que o usuário forneça um texto */
+String texto = JOptionPane.showInputDialog("Digite seu nome:"); 
+	
+// Exibe o texto que o usuário forneceu
+JOptionPane.showMessageDialog(null, "Hello World, " + texto);
+ 	}
+}
